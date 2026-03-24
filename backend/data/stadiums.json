@@ -26,6 +26,114 @@
       "capacity": 19156,
       "opened": 1995,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/TD_Garden.JPG"
+    },
+    {
+      "id": 4,
+      "name": "Chase Center",
+      "team": "Golden State Warriors",
+      "location": "San Francisco, CA",
+      "capacity": 18064,
+      "opened": 2019,
+      "imageUrl": ""
+    },
+    {
+      "id": 5,
+      "name": "United Center",
+      "team": "Chicago Bulls",
+      "location": "Chicago, IL",
+      "capacity": 20917,
+      "opened": 1994,
+      "imageUrl": ""
+    },
+    {
+      "id": 6,
+      "name": "Kaseya Center",
+      "team": "Miami Heat",
+      "location": "Miami, FL",
+      "capacity": 19600,
+      "opened": 1999,
+      "imageUrl": ""
+    },
+    {
+      "id": 7,
+      "name": "Fiserv Forum",
+      "team": "Milwaukee Bucks",
+      "location": "Milwaukee, WI",
+      "capacity": 17341,
+      "opened": 2018,
+      "imageUrl": ""
+    },
+    {
+      "id": 8,
+      "name": "Wells Fargo Center",
+      "team": "Philadelphia 76ers",
+      "location": "Philadelphia, PA",
+      "capacity": 20478,
+      "opened": 1996,
+      "imageUrl": ""
+    },
+    {
+      "id": 9,
+      "name": "American Airlines Center",
+      "team": "Dallas Mavericks",
+      "location": "Dallas, TX",
+      "capacity": 19200,
+      "opened": 2001,
+      "imageUrl": ""
+    },
+    {
+      "id": 10,
+      "name": "Ball Arena",
+      "team": "Denver Nuggets",
+      "location": "Denver, CO",
+      "capacity": 19520,
+      "opened": 1999,
+      "imageUrl": ""
+    },
+    {
+      "id": 11,
+      "name": "Barclays Center",
+      "team": "Brooklyn Nets",
+      "location": "Brooklyn, NY",
+      "capacity": 17732,
+      "opened": 2012,
+      "imageUrl": ""
+    },
+    {
+      "id": 12,
+      "name": "Scotiabank Arena",
+      "team": "Toronto Raptors",
+      "location": "Toronto, ON",
+      "capacity": 19800,
+      "opened": 1999,
+      "imageUrl": ""
+    },
+    {
+      "id": 13,
+      "name": "Footprint Center",
+      "team": "Phoenix Suns",
+      "location": "Phoenix, AZ",
+      "capacity": 18055,
+      "opened": 1992,
+      "imageUrl": ""
+    },
+    {
+      "id": 14,
+      "name": "Rocket Mortgage FieldHouse",
+      "team": "Cleveland Cavaliers",
+      "location": "Cleveland, OH",
+      "capacity": 19432,
+      "opened": 1994,
+      "imageUrl": ""
+    },
+    {
+      "id": 15,
+      "name": "State Farm Arena",
+      "team": "Atlanta Hawks",
+      "location": "Atlanta, GA",
+      "capacity": 18118,
+      "opened": 1999,
+      "imageUrl": ""
     }
   ]
 }

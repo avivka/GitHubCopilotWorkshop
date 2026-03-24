@@ -1,0 +1,92 @@
+[
+  {
+    "season": "2023-24",
+    "champion": "Boston Celtics",
+    "mvp": "Nikola Jokic",
+    "topScorer": "Luka Doncic",
+    "roty": "Victor Wembanyama",
+    "dpoy": "Rudy Gobert",
+    "finalsResult": "Boston Celtics 4-1 Dallas Mavericks"
+  },
+  {
+    "season": "2022-23",
+    "champion": "Denver Nuggets",
+    "mvp": "Joel Embiid",
+    "topScorer": "Joel Embiid",
+    "roty": "Paolo Banchero",
+    "dpoy": "Jaren Jackson Jr.",
+    "finalsResult": "Denver Nuggets 4-1 Miami Heat"
+  },
+  {
+    "season": "2021-22",
+    "champion": "Golden State Warriors",
+    "mvp": "Nikola Jokic",
+    "topScorer": "Joel Embiid",
+    "roty": "Scottie Barnes",
+    "dpoy": "Marcus Smart",
+    "finalsResult": "Golden State Warriors 4-2 Boston Celtics"
+  },
+  {
+    "season": "2020-21",
+    "champion": "Milwaukee Bucks",
+    "mvp": "Nikola Jokic",
+    "topScorer": "Stephen Curry",
+    "roty": "LaMelo Ball",
+    "dpoy": "Rudy Gobert",
+    "finalsResult": "Milwaukee Bucks 4-2 Phoenix Suns"
+  },
+  {
+    "season": "2019-20",
+    "champion": "Los Angeles Lakers",
+    "mvp": "Giannis Antetokounmpo",
+    "topScorer": "James Harden",
+    "roty": "Ja Morant",
+    "dpoy": "Giannis Antetokounmpo",
+    "finalsResult": "Los Angeles Lakers 4-2 Miami Heat"
+  },
+  {
+    "season": "2018-19",
+    "champion": "Toronto Raptors",
+    "mvp": "Giannis Antetokounmpo",
+    "topScorer": "James Harden",
+    "roty": "Luka Doncic",
+    "dpoy": "Rudy Gobert",
+    "finalsResult": "Toronto Raptors 4-2 Golden State Warriors"
+  },
+  {
+    "season": "2017-18",
+    "champion": "Golden State Warriors",
+    "mvp": "James Harden",
+    "topScorer": "James Harden",
+    "roty": "Ben Simmons",
+    "dpoy": "Rudy Gobert",
+    "finalsResult": "Golden State Warriors 4-0 Cleveland Cavaliers"
+  },
+  {
+    "season": "2016-17",
+    "champion": "Golden State Warriors",
+    "mvp": "Russell Westbrook",
+    "topScorer": "Russell Westbrook",
+    "roty": "Malcolm Brogdon",
+    "dpoy": "Draymond Green",
+    "finalsResult": "Golden State Warriors 4-1 Cleveland Cavaliers"
+  },
+  {
+    "season": "2015-16",
+    "champion": "Cleveland Cavaliers",
+    "mvp": "Stephen Curry",
+    "topScorer": "Stephen Curry",
+    "roty": "Karl-Anthony Towns",
+    "dpoy": "Kawhi Leonard",
+    "finalsResult": "Cleveland Cavaliers 4-3 Golden State Warriors"
+  },
+  {
+    "season": "2014-15",
+    "champion": "Golden State Warriors",
+    "mvp": "Stephen Curry",
+    "topScorer": "Russell Westbrook",
+    "roty": "Andrew Wiggins",
+    "dpoy": "Kawhi Leonard",
+    "finalsResult": "Golden State Warriors 4-2 Cleveland Cavaliers"
+  }
+]

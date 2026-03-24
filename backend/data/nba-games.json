@@ -58,5 +58,155 @@
     "event_final_result": "101 - 106",
     "event_date": "2024-01-13T20:00:00Z",
     "event_status": "Finished"
+  },
+  {
+    "id": "7",
+    "event_away_team": "Denver Nuggets",
+    "event_home_team": "San Antonio Spurs",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612743/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612759/logo.svg",
+    "event_final_result": "130 - 115",
+    "event_date": "2024-01-16T20:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "8",
+    "event_away_team": "Oklahoma City Thunder",
+    "event_home_team": "Minnesota Timberwolves",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612760/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612750/logo.svg",
+    "event_final_result": "105 - 112",
+    "event_date": "2024-01-16T21:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "9",
+    "event_away_team": "Cleveland Cavaliers",
+    "event_home_team": "Atlanta Hawks",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612739/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612737/logo.svg",
+    "event_final_result": "118 - 110",
+    "event_date": "2024-01-17T19:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "10",
+    "event_away_team": "Indiana Pacers",
+    "event_home_team": "Sacramento Kings",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612754/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612758/logo.svg",
+    "event_final_result": "127 - 123",
+    "event_date": "2024-01-17T22:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "11",
+    "event_away_team": "Memphis Grizzlies",
+    "event_home_team": "Houston Rockets",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612763/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612745/logo.svg",
+    "event_final_result": "99 - 104",
+    "event_date": "2024-01-18T20:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "12",
+    "event_away_team": "Phoenix Suns",
+    "event_home_team": "LA Clippers",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612756/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612746/logo.svg",
+    "event_final_result": "114 - 107",
+    "event_date": "2024-01-18T22:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "13",
+    "event_away_team": "Boston Celtics",
+    "event_home_team": "Milwaukee Bucks",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612738/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612749/logo.svg",
+    "event_final_result": "122 - 119",
+    "event_date": "2024-01-19T19:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "14",
+    "event_away_team": "Portland Trail Blazers",
+    "event_home_team": "Utah Jazz",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612757/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612762/logo.svg",
+    "event_final_result": "88 - 102",
+    "event_date": "2024-01-19T21:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "15",
+    "event_away_team": "New Orleans Pelicans",
+    "event_home_team": "Charlotte Hornets",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612740/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612766/logo.svg",
+    "event_final_result": "115 - 98",
+    "event_date": "2024-01-20T18:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "16",
+    "event_away_team": "Detroit Pistons",
+    "event_home_team": "Orlando Magic",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612765/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612753/logo.svg",
+    "event_final_result": "91 - 108",
+    "event_date": "2024-01-20T18:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "17",
+    "event_away_team": "Washington Wizards",
+    "event_home_team": "Chicago Bulls",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612764/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612741/logo.svg",
+    "event_final_result": "95 - 111",
+    "event_date": "2024-01-21T15:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "18",
+    "event_away_team": "Golden State Warriors",
+    "event_home_team": "Denver Nuggets",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612744/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612743/logo.svg",
+    "event_final_result": "107 - 120",
+    "event_date": "2024-01-21T20:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "19",
+    "event_away_team": "Miami Heat",
+    "event_home_team": "New York Knicks",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612748/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612752/logo.svg",
+    "event_final_result": "102 - 110",
+    "event_date": "2024-01-22T19:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "20",
+    "event_away_team": "Los Angeles Lakers",
+    "event_home_team": "Dallas Mavericks",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612747/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612742/logo.svg",
+    "event_final_result": "116 - 121",
+    "event_date": "2024-01-22T20:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "21",
+    "event_away_team": "San Antonio Spurs",
+    "event_home_team": "Toronto Raptors",
+    "event_away_team_logo": "https://logos.nba.com/teams/1610612759/logo.svg",
+    "event_home_team_logo": "https://logos.nba.com/teams/1610612761/logo.svg",
+    "event_final_result": "109 - 101",
+    "event_date": "2024-01-23T19:00:00Z",
+    "event_status": "Finished"
   }
 ]
