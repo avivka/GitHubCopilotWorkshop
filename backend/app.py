@@ -128,6 +128,141 @@ def create_player():
         print(f'Error creating player: {e}')
         return jsonify({'error': 'Failed to create player'}), 500
 
+# Teams data
+@app.route('/api/teams', methods=['GET'])
+def get_teams():
+    """Get all NBA teams, optionally filtered by conference"""
+    try:
+        teams = load_json_file('teams.json')
+        if teams is None:
+            return jsonify({'error': 'Failed to load teams data'}), 500
+
+        conference = request.args.get('conference')
+        if conference:
+            teams = [t for t in teams if t['conference'].lower() == conference.lower()]
+
+        return jsonify(teams), 200
+    except Exception as e:
+        print(f'Error serving teams data: {e}')
+        return jsonify({'error': 'Failed to load teams data'}), 500
+
+# Player stats data
+@app.route('/api/player-stats', methods=['GET'])
+def get_player_stats():
+    """Get enriched player statistics"""
+    try:
+        stats = load_json_file('player-stats.json')
+        if stats is None:
+            return jsonify({'error': 'Failed to load player stats data'}), 500
+
+        return jsonify(stats), 200
+    except Exception as e:
+        print(f'Error serving player stats: {e}')
+        return jsonify({'error': 'Failed to load player stats data'}), 500
+
+# Single player by ID
+@app.route('/api/players/<int:player_id>', methods=['GET'])
+def get_player_by_id(player_id):
+    """Get a single player by ID"""
+    try:
+        players = load_json_file('player-info.json')
+        if players is None:
+            return jsonify({'error': 'Failed to load player data'}), 500
+
+        player = next((p for p in players if p['id'] == player_id), None)
+        if player is None:
+            return jsonify({'error': 'Player not found'}), 404
+
+        return jsonify(player), 200
+    except Exception as e:
+        print(f'Error fetching player: {e}')
+        return jsonify({'error': 'Failed to fetch player'}), 500
+
+# Search players by name
+@app.route('/api/search/players', methods=['GET'])
+def search_players():
+    """Search players by name"""
+    try:
+        query = request.args.get('q', '').lower()
+        if not query:
+            return jsonify({'error': 'Query parameter q is required'}), 400
+
+        players = load_json_file('player-info.json')
+        if players is None:
+            return jsonify({'error': 'Failed to load player data'}), 500
+
+        results = [p for p in players if query in p['name'].lower()]
+        return jsonify(results), 200
+    except Exception as e:
+        print(f'Error searching players: {e}')
+        return jsonify({'error': 'Failed to search players'}), 500
+
+# Team roster
+@app.route('/api/team-roster/<team>', methods=['GET'])
+def get_team_roster(team):
+    """Get all players on a given team"""
+    try:
+        players = load_json_file('player-info.json')
+        if players is None:
+            return jsonify({'error': 'Failed to load player data'}), 500
+
+        roster = [p for p in players if team.lower() in p['team'].lower()]
+        return jsonify(roster), 200
+    except Exception as e:
+        print(f'Error fetching team roster: {e}')
+        return jsonify({'error': 'Failed to fetch team roster'}), 500
+
+# Conference standings
+@app.route('/api/standings', methods=['GET'])
+def get_standings():
+    """Get conference standings based on team championships"""
+    try:
+        teams = load_json_file('teams.json')
+        if teams is None:
+            return jsonify({'error': 'Failed to load teams data'}), 500
+
+        eastern = sorted(
+            [t for t in teams if t['conference'] == 'Eastern'],
+            key=lambda t: t['championships'],
+            reverse=True
+        )
+        western = sorted(
+            [t for t in teams if t['conference'] == 'Western'],
+            key=lambda t: t['championships'],
+            reverse=True
+        )
+
+        return jsonify({'eastern': eastern, 'western': western}), 200
+    except Exception as e:
+        print(f'Error fetching standings: {e}')
+        return jsonify({'error': 'Failed to fetch standings'}), 500
+
+# Compare two players
+@app.route('/api/player-compare', methods=['GET'])
+def compare_players():
+    """Compare two players side by side"""
+    try:
+        player1_id = request.args.get('player1', type=int)
+        player2_id = request.args.get('player2', type=int)
+
+        if not player1_id or not player2_id:
+            return jsonify({'error': 'Both player1 and player2 query parameters are required'}), 400
+
+        stats = load_json_file('player-stats.json')
+        if stats is None:
+            return jsonify({'error': 'Failed to load player stats data'}), 500
+
+        p1 = next((p for p in stats if p['id'] == player1_id), None)
+        p2 = next((p for p in stats if p['id'] == player2_id), None)
+
+        if not p1 or not p2:
+            return jsonify({'error': 'One or both players not found'}), 404
+
+        return jsonify({'player1': p1, 'player2': p2}), 200
+    except Exception as e:
+        print(f'Error comparing players: {e}')
+        return jsonify({'error': 'Failed to compare players'}), 500
+
 # Coaches API
 @app.route('/api/coaches', methods=['GET'])
 def get_coaches():

@@ -2,31 +2,125 @@
   {
     "id": 1,
     "name": "Steve Kerr",
-    "age": 57,
+    "age": 59,
     "team": "Golden State Warriors",
     "history": [
       {"year": 2015, "achievement": "NBA Champion"},
       {"year": 2017, "achievement": "NBA Champion"},
-      {"year": 2018, "achievement": "NBA Champion"}
+      {"year": 2018, "achievement": "NBA Champion"},
+      {"year": 2022, "achievement": "NBA Champion"}
     ]
   },
   {
     "id": 2,
     "name": "Erik Spoelstra",
-    "age": 53,
+    "age": 54,
     "team": "Miami Heat",
     "history": [
       {"year": 2012, "achievement": "NBA Champion"},
-      {"year": 2013, "achievement": "NBA Champion"}
+      {"year": 2013, "achievement": "NBA Champion"},
+      {"year": 2023, "achievement": "NBA Finals Appearance"}
     ]
   },
   {
     "id": 3,
-    "name": "Doc Rivers",
-    "age": 62,
+    "name": "Joe Mazzulla",
+    "age": 36,
+    "team": "Boston Celtics",
+    "history": [
+      {"year": 2024, "achievement": "NBA Champion"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mike Budenholzer",
+    "age": 55,
+    "team": "Phoenix Suns",
+    "history": [
+      {"year": 2021, "achievement": "NBA Champion (with Milwaukee Bucks)"},
+      {"year": 2019, "achievement": "Coach of the Year"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tyronn Lue",
+    "age": 47,
+    "team": "LA Clippers",
+    "history": [
+      {"year": 2016, "achievement": "NBA Champion (with Cleveland Cavaliers)"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Michael Malone",
+    "age": 52,
+    "team": "Denver Nuggets",
+    "history": [
+      {"year": 2023, "achievement": "NBA Champion"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Jason Kidd",
+    "age": 51,
+    "team": "Dallas Mavericks",
+    "history": [
+      {"year": 2024, "achievement": "NBA Finals Appearance"},
+      {"year": 2011, "achievement": "NBA Champion (as player, Dallas Mavericks)"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tom Thibodeau",
+    "age": 66,
+    "team": "New York Knicks",
+    "history": [
+      {"year": 2011, "achievement": "Coach of the Year"},
+      {"year": 2021, "achievement": "Coach of the Year"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Nick Nurse",
+    "age": 57,
     "team": "Philadelphia 76ers",
     "history": [
-      {"year": 2008, "achievement": "NBA Champion (with Boston Celtics)"}
+      {"year": 2019, "achievement": "NBA Champion (with Toronto Raptors)"},
+      {"year": 2020, "achievement": "Coach of the Year"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Mark Daigneault",
+    "age": 39,
+    "team": "Oklahoma City Thunder",
+    "history": [
+      {"year": 2024, "achievement": "Coach of the Year"}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Gregg Popovich",
+    "age": 75,
+    "team": "San Antonio Spurs",
+    "history": [
+      {"year": 1999, "achievement": "NBA Champion"},
+      {"year": 2003, "achievement": "NBA Champion"},
+      {"year": 2005, "achievement": "NBA Champion"},
+      {"year": 2007, "achievement": "NBA Champion"},
+      {"year": 2014, "achievement": "NBA Champion"},
+      {"year": 2003, "achievement": "Coach of the Year"},
+      {"year": 2012, "achievement": "Coach of the Year"},
+      {"year": 2014, "achievement": "Coach of the Year"}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Darvin Ham",
+    "age": 51,
+    "team": "Milwaukee Bucks",
+    "history": [
+      {"year": 2023, "achievement": "Western Conference Finals (with LA Lakers)"}
     ]
   }
 ]

@@ -22,6 +22,18 @@ const routes = [
     activeIcon: FaBasketball,
   },
   {
+    label: "Teams",
+    href: "/teams",
+    icon: UsersIcon,
+    activeIcon: UsersIcon,
+  },
+  {
+    label: "Player Compare",
+    href: "/player-compare",
+    icon: MdOutlineSportsHandball,
+    activeIcon: MdOutlineSportsHandball,
+  },
+  {
     label: "Optimization",
     href: "/optimization",
     icon: SiGithubcopilot,

@@ -50,51 +50,303 @@
     "weight": "242 lbs",
     "birthDate": "December 6, 1994",
     "stats": {
-      "pointsPerGame": 21.8,
-      "assistsPerGame": 4.6,
-      "reboundsPerGame": 9.3
+      "pointsPerGame": 23.4,
+      "assistsPerGame": 4.9,
+      "reboundsPerGame": 9.8
     }
   },
   {
     "id": 5,
-    "name": "Test Player",
-    "position": "Guard",
-    "team": "Test Team",
-    "height": "N/A",
-    "weight": "N/A",
-    "birthDate": "N/A",
+    "name": "Nikola Jokic",
+    "team": "Denver Nuggets",
+    "position": "Center",
+    "height": "6 ft 11 in",
+    "weight": "284 lbs",
+    "birthDate": "February 19, 1995",
     "stats": {
-      "pointsPerGame": 0.0,
-      "assistsPerGame": 0.0,
-      "reboundsPerGame": 0.0
+      "pointsPerGame": 20.9,
+      "assistsPerGame": 7.3,
+      "reboundsPerGame": 10.4
     }
   },
   {
     "id": 6,
-    "name": "Michael Jordan",
-    "position": "Shooting Guard",
-    "team": "Chicago Bulls",
-    "height": "N/A",
-    "weight": "N/A",
-    "birthDate": "N/A",
+    "name": "Luka Doncic",
+    "team": "Dallas Mavericks",
+    "position": "Guard",
+    "height": "6 ft 7 in",
+    "weight": "230 lbs",
+    "birthDate": "February 28, 1999",
     "stats": {
-      "pointsPerGame": 0.0,
-      "assistsPerGame": 0.0,
-      "reboundsPerGame": 0.0
+      "pointsPerGame": 28.7,
+      "assistsPerGame": 8.3,
+      "reboundsPerGame": 8.7
     }
   },
   {
     "id": 7,
-    "name": "LeBron James Jr",
-    "position": "Forward",
-    "team": "Lakers",
-    "height": "N/A",
-    "weight": "N/A",
-    "birthDate": "N/A",
+    "name": "Joel Embiid",
+    "team": "Philadelphia 76ers",
+    "position": "Center",
+    "height": "7 ft 0 in",
+    "weight": "280 lbs",
+    "birthDate": "March 16, 1994",
     "stats": {
-      "pointsPerGame": 0.0,
-      "assistsPerGame": 0.0,
-      "reboundsPerGame": 0.0
+      "pointsPerGame": 27.9,
+      "assistsPerGame": 3.6,
+      "reboundsPerGame": 11.2
+    }
+  },
+  {
+    "id": 8,
+    "name": "Jayson Tatum",
+    "team": "Boston Celtics",
+    "position": "Forward",
+    "height": "6 ft 8 in",
+    "weight": "210 lbs",
+    "birthDate": "March 3, 1998",
+    "stats": {
+      "pointsPerGame": 23.1,
+      "assistsPerGame": 4.6,
+      "reboundsPerGame": 7.2
+    }
+  },
+  {
+    "id": 9,
+    "name": "Jimmy Butler",
+    "team": "Miami Heat",
+    "position": "Forward",
+    "height": "6 ft 7 in",
+    "weight": "230 lbs",
+    "birthDate": "September 14, 1989",
+    "stats": {
+      "pointsPerGame": 20.5,
+      "assistsPerGame": 5.5,
+      "reboundsPerGame": 5.9
+    }
+  },
+  {
+    "id": 10,
+    "name": "Anthony Davis",
+    "team": "Los Angeles Lakers",
+    "position": "Forward-Center",
+    "height": "6 ft 10 in",
+    "weight": "253 lbs",
+    "birthDate": "March 11, 1993",
+    "stats": {
+      "pointsPerGame": 24.1,
+      "assistsPerGame": 2.6,
+      "reboundsPerGame": 10.6
+    }
+  },
+  {
+    "id": 11,
+    "name": "Damian Lillard",
+    "team": "Milwaukee Bucks",
+    "position": "Guard",
+    "height": "6 ft 2 in",
+    "weight": "195 lbs",
+    "birthDate": "July 15, 1990",
+    "stats": {
+      "pointsPerGame": 25.2,
+      "assistsPerGame": 6.7,
+      "reboundsPerGame": 4.2
+    }
+  },
+  {
+    "id": 12,
+    "name": "Ja Morant",
+    "team": "Memphis Grizzlies",
+    "position": "Guard",
+    "height": "6 ft 3 in",
+    "weight": "174 lbs",
+    "birthDate": "August 10, 1999",
+    "stats": {
+      "pointsPerGame": 22.5,
+      "assistsPerGame": 7.4,
+      "reboundsPerGame": 4.8
+    }
+  },
+  {
+    "id": 13,
+    "name": "Devin Booker",
+    "team": "Phoenix Suns",
+    "position": "Guard",
+    "height": "6 ft 5 in",
+    "weight": "206 lbs",
+    "birthDate": "October 30, 1996",
+    "stats": {
+      "pointsPerGame": 23.0,
+      "assistsPerGame": 4.9,
+      "reboundsPerGame": 4.0
+    }
+  },
+  {
+    "id": 14,
+    "name": "Kawhi Leonard",
+    "team": "LA Clippers",
+    "position": "Forward",
+    "height": "6 ft 7 in",
+    "weight": "225 lbs",
+    "birthDate": "June 29, 1991",
+    "stats": {
+      "pointsPerGame": 20.0,
+      "assistsPerGame": 3.0,
+      "reboundsPerGame": 6.4
+    }
+  },
+  {
+    "id": 15,
+    "name": "Paul George",
+    "team": "Philadelphia 76ers",
+    "position": "Forward",
+    "height": "6 ft 8 in",
+    "weight": "220 lbs",
+    "birthDate": "May 2, 1990",
+    "stats": {
+      "pointsPerGame": 20.8,
+      "assistsPerGame": 3.7,
+      "reboundsPerGame": 6.4
+    }
+  },
+  {
+    "id": 16,
+    "name": "Shai Gilgeous-Alexander",
+    "team": "Oklahoma City Thunder",
+    "position": "Guard",
+    "height": "6 ft 6 in",
+    "weight": "195 lbs",
+    "birthDate": "July 12, 1998",
+    "stats": {
+      "pointsPerGame": 25.9,
+      "assistsPerGame": 5.5,
+      "reboundsPerGame": 5.0
+    }
+  },
+  {
+    "id": 17,
+    "name": "Trae Young",
+    "team": "Atlanta Hawks",
+    "position": "Guard",
+    "height": "6 ft 1 in",
+    "weight": "164 lbs",
+    "birthDate": "September 19, 1998",
+    "stats": {
+      "pointsPerGame": 25.3,
+      "assistsPerGame": 9.4,
+      "reboundsPerGame": 3.7
+    }
+  },
+  {
+    "id": 18,
+    "name": "Donovan Mitchell",
+    "team": "Cleveland Cavaliers",
+    "position": "Guard",
+    "height": "6 ft 1 in",
+    "weight": "215 lbs",
+    "birthDate": "September 7, 1996",
+    "stats": {
+      "pointsPerGame": 24.0,
+      "assistsPerGame": 4.5,
+      "reboundsPerGame": 4.2
+    }
+  },
+  {
+    "id": 19,
+    "name": "Anthony Edwards",
+    "team": "Minnesota Timberwolves",
+    "position": "Guard",
+    "height": "6 ft 4 in",
+    "weight": "225 lbs",
+    "birthDate": "August 5, 2001",
+    "stats": {
+      "pointsPerGame": 23.4,
+      "assistsPerGame": 4.3,
+      "reboundsPerGame": 5.5
+    }
+  },
+  {
+    "id": 20,
+    "name": "Tyrese Haliburton",
+    "team": "Indiana Pacers",
+    "position": "Guard",
+    "height": "6 ft 5 in",
+    "weight": "185 lbs",
+    "birthDate": "February 29, 2000",
+    "stats": {
+      "pointsPerGame": 18.5,
+      "assistsPerGame": 9.8,
+      "reboundsPerGame": 3.8
+    }
+  },
+  {
+    "id": 21,
+    "name": "Jaylen Brown",
+    "team": "Boston Celtics",
+    "position": "Guard-Forward",
+    "height": "6 ft 6 in",
+    "weight": "223 lbs",
+    "birthDate": "October 24, 1996",
+    "stats": {
+      "pointsPerGame": 21.0,
+      "assistsPerGame": 3.2,
+      "reboundsPerGame": 6.1
+    }
+  },
+  {
+    "id": 22,
+    "name": "Domantas Sabonis",
+    "team": "Sacramento Kings",
+    "position": "Center",
+    "height": "6 ft 11 in",
+    "weight": "240 lbs",
+    "birthDate": "May 3, 1996",
+    "stats": {
+      "pointsPerGame": 16.5,
+      "assistsPerGame": 5.8,
+      "reboundsPerGame": 11.5
+    }
+  },
+  {
+    "id": 23,
+    "name": "De'Aaron Fox",
+    "team": "Sacramento Kings",
+    "position": "Guard",
+    "height": "6 ft 3 in",
+    "weight": "185 lbs",
+    "birthDate": "December 20, 1997",
+    "stats": {
+      "pointsPerGame": 22.4,
+      "assistsPerGame": 6.1,
+      "reboundsPerGame": 4.0
+    }
+  },
+  {
+    "id": 24,
+    "name": "Bam Adebayo",
+    "team": "Miami Heat",
+    "position": "Center",
+    "height": "6 ft 9 in",
+    "weight": "255 lbs",
+    "birthDate": "July 18, 1997",
+    "stats": {
+      "pointsPerGame": 18.2,
+      "assistsPerGame": 3.4,
+      "reboundsPerGame": 9.6
+    }
+  },
+  {
+    "id": 25,
+    "name": "Zion Williamson",
+    "team": "New Orleans Pelicans",
+    "position": "Forward",
+    "height": "6 ft 6 in",
+    "weight": "284 lbs",
+    "birthDate": "July 6, 2000",
+    "stats": {
+      "pointsPerGame": 25.0,
+      "assistsPerGame": 3.8,
+      "reboundsPerGame": 7.0
     }
   }
 ]

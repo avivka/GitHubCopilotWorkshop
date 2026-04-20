@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Atlanta Hawks",
+    "abbreviation": "ATL",
+    "city": "Atlanta",
+    "conference": "Eastern",
+    "division": "Southeast",
+    "championships": 1,
+    "arena": "State Farm Arena"
+  },
+  {
+    "id": 2,
+    "name": "Boston Celtics",
+    "abbreviation": "BOS",
+    "city": "Boston",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "championships": 18,
+    "arena": "TD Garden"
+  },
+  {
+    "id": 3,
+    "name": "Brooklyn Nets",
+    "abbreviation": "BKN",
+    "city": "Brooklyn",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "championships": 0,
+    "arena": "Barclays Center"
+  },
+  {
+    "id": 4,
+    "name": "Charlotte Hornets",
+    "abbreviation": "CHA",
+    "city": "Charlotte",
+    "conference": "Eastern",
+    "division": "Southeast",
+    "championships": 0,
+    "arena": "Spectrum Center"
+  },
+  {
+    "id": 5,
+    "name": "Chicago Bulls",
+    "abbreviation": "CHI",
+    "city": "Chicago",
+    "conference": "Eastern",
+    "division": "Central",
+    "championships": 6,
+    "arena": "United Center"
+  },
+  {
+    "id": 6,
+    "name": "Cleveland Cavaliers",
+    "abbreviation": "CLE",
+    "city": "Cleveland",
+    "conference": "Eastern",
+    "division": "Central",
+    "championships": 1,
+    "arena": "Rocket Mortgage FieldHouse"
+  },
+  {
+    "id": 7,
+    "name": "Dallas Mavericks",
+    "abbreviation": "DAL",
+    "city": "Dallas",
+    "conference": "Western",
+    "division": "Southwest",
+    "championships": 1,
+    "arena": "American Airlines Center"
+  },
+  {
+    "id": 8,
+    "name": "Denver Nuggets",
+    "abbreviation": "DEN",
+    "city": "Denver",
+    "conference": "Western",
+    "division": "Northwest",
+    "championships": 1,
+    "arena": "Ball Arena"
+  },
+  {
+    "id": 9,
+    "name": "Detroit Pistons",
+    "abbreviation": "DET",
+    "city": "Detroit",
+    "conference": "Eastern",
+    "division": "Central",
+    "championships": 3,
+    "arena": "Little Caesars Arena"
+  },
+  {
+    "id": 10,
+    "name": "Golden State Warriors",
+    "abbreviation": "GSW",
+    "city": "San Francisco",
+    "conference": "Western",
+    "division": "Pacific",
+    "championships": 7,
+    "arena": "Chase Center"
+  },
+  {
+    "id": 11,
+    "name": "Houston Rockets",
+    "abbreviation": "HOU",
+    "city": "Houston",
+    "conference": "Western",
+    "division": "Southwest",
+    "championships": 2,
+    "arena": "Toyota Center"
+  },
+  {
+    "id": 12,
+    "name": "Indiana Pacers",
+    "abbreviation": "IND",
+    "city": "Indianapolis",
+    "conference": "Eastern",
+    "division": "Central",
+    "championships": 0,
+    "arena": "Gainbridge Fieldhouse"
+  },
+  {
+    "id": 13,
+    "name": "LA Clippers",
+    "abbreviation": "LAC",
+    "city": "Los Angeles",
+    "conference": "Western",
+    "division": "Pacific",
+    "championships": 0,
+    "arena": "Intuit Dome"
+  },
+  {
+    "id": 14,
+    "name": "Los Angeles Lakers",
+    "abbreviation": "LAL",
+    "city": "Los Angeles",
+    "conference": "Western",
+    "division": "Pacific",
+    "championships": 17,
+    "arena": "Crypto.com Arena"
+  },
+  {
+    "id": 15,
+    "name": "Memphis Grizzlies",
+    "abbreviation": "MEM",
+    "city": "Memphis",
+    "conference": "Western",
+    "division": "Southwest",
+    "championships": 0,
+    "arena": "FedExForum"
+  },
+  {
+    "id": 16,
+    "name": "Miami Heat",
+    "abbreviation": "MIA",
+    "city": "Miami",
+    "conference": "Eastern",
+    "division": "Southeast",
+    "championships": 3,
+    "arena": "Kaseya Center"
+  },
+  {
+    "id": 17,
+    "name": "Milwaukee Bucks",
+    "abbreviation": "MIL",
+    "city": "Milwaukee",
+    "conference": "Eastern",
+    "division": "Central",
+    "championships": 2,
+    "arena": "Fiserv Forum"
+  },
+  {
+    "id": 18,
+    "name": "Minnesota Timberwolves",
+    "abbreviation": "MIN",
+    "city": "Minneapolis",
+    "conference": "Western",
+    "division": "Northwest",
+    "championships": 0,
+    "arena": "Target Center"
+  },
+  {
+    "id": 19,
+    "name": "New Orleans Pelicans",
+    "abbreviation": "NOP",
+    "city": "New Orleans",
+    "conference": "Western",
+    "division": "Southwest",
+    "championships": 0,
+    "arena": "Smoothie King Center"
+  },
+  {
+    "id": 20,
+    "name": "New York Knicks",
+    "abbreviation": "NYK",
+    "city": "New York",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "championships": 2,
+    "arena": "Madison Square Garden"
+  },
+  {
+    "id": 21,
+    "name": "Oklahoma City Thunder",
+    "abbreviation": "OKC",
+    "city": "Oklahoma City",
+    "conference": "Western",
+    "division": "Northwest",
+    "championships": 1,
+    "arena": "Paycom Center"
+  },
+  {
+    "id": 22,
+    "name": "Orlando Magic",
+    "abbreviation": "ORL",
+    "city": "Orlando",
+    "conference": "Eastern",
+    "division": "Southeast",
+    "championships": 0,
+    "arena": "Amway Center"
+  },
+  {
+    "id": 23,
+    "name": "Philadelphia 76ers",
+    "abbreviation": "PHI",
+    "city": "Philadelphia",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "championships": 3,
+    "arena": "Wells Fargo Center"
+  },
+  {
+    "id": 24,
+    "name": "Phoenix Suns",
+    "abbreviation": "PHX",
+    "city": "Phoenix",
+    "conference": "Western",
+    "division": "Pacific",
+    "championships": 0,
+    "arena": "Footprint Center"
+  },
+  {
+    "id": 25,
+    "name": "Portland Trail Blazers",
+    "abbreviation": "POR",
+    "city": "Portland",
+    "conference": "Western",
+    "division": "Northwest",
+    "championships": 1,
+    "arena": "Moda Center"
+  },
+  {
+    "id": 26,
+    "name": "Sacramento Kings",
+    "abbreviation": "SAC",
+    "city": "Sacramento",
+    "conference": "Western",
+    "division": "Pacific",
+    "championships": 1,
+    "arena": "Golden 1 Center"
+  },
+  {
+    "id": 27,
+    "name": "San Antonio Spurs",
+    "abbreviation": "SAS",
+    "city": "San Antonio",
+    "conference": "Western",
+    "division": "Southwest",
+    "championships": 5,
+    "arena": "Frost Bank Center"
+  },
+  {
+    "id": 28,
+    "name": "Toronto Raptors",
+    "abbreviation": "TOR",
+    "city": "Toronto",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "championships": 1,
+    "arena": "Scotiabank Arena"
+  },
+  {
+    "id": 29,
+    "name": "Utah Jazz",
+    "abbreviation": "UTA",
+    "city": "Salt Lake City",
+    "conference": "Western",
+    "division": "Northwest",
+    "championships": 0,
+    "arena": "Delta Center"
+  },
+  {
+    "id": 30,
+    "name": "Washington Wizards",
+    "abbreviation": "WAS",
+    "city": "Washington",
+    "conference": "Eastern",
+    "division": "Southeast",
+    "championships": 1,
+    "arena": "Capital One Arena"
+  }
+]
